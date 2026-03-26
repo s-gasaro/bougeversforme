@@ -1,0 +1,119 @@
+.page {
+  padding: var(--sp-12) 0 var(--sp-24);
+  animation: fadeIn var(--duration-base) var(--ease-in-out) both;
+}
+
+.pageHeader {
+  margin-bottom: var(--sp-10);
+  border-bottom: 1px solid var(--clr-border);
+  padding-bottom: var(--sp-8);
+}
+
+.pageTitle {
+  font-size: 2.75rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: var(--sp-2);
+}
+
+.pageSub {
+  color: var(--clr-text-muted);
+  font-size: 1.125rem;
+  max-width: 560px;
+}
+
+/* ---- Form ---- */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  margin-bottom: var(--sp-10);
+}
+
+.dayRow {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: var(--sp-4);
+  align-items: start;
+}
+
+.dayLabel {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--clr-accent);
+  padding-top: var(--sp-3);
+}
+
+.dayInput {
+  background: var(--clr-surface);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius-md);
+  padding: var(--sp-3) var(--sp-4);
+  color: var(--clr-text);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  resize: vertical;
+  transition: border-color var(--duration-fast) var(--ease-in-out);
+  width: 100%;
+}
+
+.dayInput:focus {
+  outline: none;
+  border-color: var(--clr-accent);
+}
+
+.dayInput::placeholder {
+  color: var(--clr-text-muted);
+  opacity: 0.6;
+}
+
+/* ---- Footer ---- */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  padding-top: var(--sp-6);
+  border-top: 1px solid var(--clr-border);
+  flex-wrap: wrap;
+}
+
+.footerHint {
+  font-size: 0.875rem;
+  color: var(--clr-text-muted);
+}
+
+.submitBtn {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--clr-bg);
+  background: var(--clr-accent);
+  padding: var(--sp-4) var(--sp-8);
+  border-radius: var(--radius-full);
+  transition: background var(--duration-fast) var(--ease-in-out),
+              transform var(--duration-fast) var(--ease-in-out),
+              opacity var(--duration-fast) var(--ease-in-out);
+}
+
+.submitBtn:hover:not(:disabled) {
+  background: var(--clr-accent-dim);
+  transform: translateY(-2px);
+}
+
+.submitBtn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #ff5f5f;
+  font-size: 0.875rem;
+  padding: var(--sp-4);
+  background: rgba(255, 95, 95, 0.08);
+  border: 1px solid rgba(255, 95, 95, 0.2);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--sp-4);
+}
