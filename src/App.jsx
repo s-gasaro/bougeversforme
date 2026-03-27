@@ -20,7 +20,7 @@ export default function App() {
       <Route element={<MainLayout />}>
         <Route path="/"          element={<Navigate to="/login" replace />} />
         <Route path="/welcome"   element={<Welcome />} />
-        <Route path="/home"      element={<Home />} />
+        <Route path="/home" element={<Navigate to="/welcome" replace />} />
         <Route path="/goals"     element={<Goals />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/schedule"  element={<Schedule />} />
