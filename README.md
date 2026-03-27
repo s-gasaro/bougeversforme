@@ -85,8 +85,8 @@ netlify/
 
 ## 📄 SRS Document
 
-[Link to SRS Document](your-srs-link-here)
+[Link to SRS Document](https://docs.google.com/document/d/1OhQUVCWMwX2PtrSGU_zxp7Pxisr_JSX6EHhQV8pGE3c/edit?tab=t.0)
 
 ## 👩‍💻 Author
 
-**Sarah Gasaro** — [GitHub](https://github.com/s-gasaro) | [Portfolio](https://s-gasaro.github.io/MyPortFolio/)
+**Sarah Gasaro** 
