@@ -4,7 +4,7 @@ A personalized fitness platform that recommends weekly workout plans based on yo
 
 ## 🌐 Live Demo
 
-[https://your-netlify-url.netlify.app](https://your-netlify-url.netlify.app)
+[https://your-netlify-url.netlify.app]((https://youtu.be/B4vR1s2-jnQ))
 
 ## 📋 Features
 
@@ -76,10 +76,10 @@ netlify/
 
 ## 👤 How to Use
 
-1. **Register** — Create an account with your name, email and password
+1. **Register** — Create an account with your name, email and correct password of that email
 2. **Set your goal** — Choose between Weight loss, Muscle gain, Wellness or Endurance
 3. **Select your level** — Beginner, Intermediate or Advanced
-4. **Describe your week** — Fill in your daily routine for at least 3 days
+4. **Describe your week** — Fill in your daily routine for at most 3 days
 5. **Generate** — Get your personalized AI workout plan
 6. **Give feedback** — Rate your experience
 
