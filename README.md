@@ -4,7 +4,7 @@ A personalized fitness platform that recommends weekly workout plans based on yo
 
 ## 🌐 Live Demo
 
-[![Watch the video](https://img.youtube.com/vi/B4vR1s2-jnQ/0.jpg)](https://youtu.be/B4vR1s2-jnQ)
+[Click here to watch the video](https://youtu.be/B4vR1s2-jnQ)
 [https://your-netlify-url.netlify.app]((https://youtu.be/B4vR1s2-jnQ))
 
 ## 📋 Features
